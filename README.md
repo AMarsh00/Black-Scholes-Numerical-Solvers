@@ -7,4 +7,4 @@ LieSplittingTwoSubproblems is the case with two subproblems
 
 LieSplittingThreeSubproblems is the case with three subproblems
 
-LieSplittingFiniteElements is the finite element one
+FiniteElements is the finite element one
