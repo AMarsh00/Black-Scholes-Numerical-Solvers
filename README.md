@@ -6,3 +6,5 @@ All three of the files can be run as is, and you can modify the parameters to so
 LieSplittingTwoSubproblems is the case with two subproblems
 
 LieSplittingThreeSubproblems is the case with three subproblems
+
+CarrMadan is the solver via Carr-Madan
