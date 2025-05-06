@@ -7,4 +7,4 @@ LieSplittingTwoSubproblems is the Lie Splitting solver with two subproblems
 
 LieSplittingThreeSubproblems is the Lie Splitting solver with three subproblem
 
-Carr-Madan is the solver via the Carr-Madan integral
+CarrMadan is the solver via the Carr-Madan integral
