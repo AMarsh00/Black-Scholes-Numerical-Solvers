@@ -7,4 +7,4 @@ LieSplittingTwoSubproblems is the case with two subproblems
 
 LieSplittingThreeSubproblems is the case with three subproblems
 
-CarrMadan is the solver via Carr-Madan
+CarrMadan is an attempt at a solver via the Carr-Madan that did not work
