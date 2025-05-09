@@ -16,7 +16,7 @@ The following solvers are included in this repository:
    - This solver implements the **Carr-Madan integral** method. It's a widely used method for option pricing, leveraging Fourier transforms for efficient pricing. Note that this method was not written by us, but it has been included for completeness.
 
 4. **LogTransform**: 
-   - This solver uses the **Lie Splitting method** with a **logarithmic transformation**. The log transformation simplifies the Black-Scholes equation by converting the problem into a simpler form for numerical solving.
+   - This solver uses the **Lie Splitting method** with a **logarithmic transformation**. The log transformation simplifies the Black-Scholes equation by converting the problem into a simpler form for solvinging numerically.
 
 ## Getting Started
 
