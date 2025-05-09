@@ -1,10 +1,35 @@
 # Black-Scholes-Numerical-Solvers
-Some numerical solvers for the Black-Scholes equation
 
-All three of the files can be run as is, and you can modify the parameters to solve it for any α, r, S range, t range, et cetera.
+This repository contains various numerical solvers for the Black-Scholes equation using different methods and approaches. The solvers are implemented for the Fractional Black-Scholes equation, with any choice of parameters you would like.
 
-LieSplittingTwoSubproblems is the Lie Splitting solver with two subproblems
+## Overview
 
-LieSplittingThreeSubproblems is the Lie Splitting solver with three subproblem
+The following solvers are included in this repository:
 
-CarrMadan is the solver via the Carr-Madan integral (not written by us)
+1. **LieSplittingTwoSubproblems**: 
+   - This solver implements the **Lie Splitting** method with **two subproblems**. It separates the Black-Scholes equation into two parts and solves each part separately.
+   
+2. **LieSplittingThreeSubproblems**: 
+   - This solver enhances the **Lie Splitting** method by incorporating **three subproblems**. This approach has more error, but is still included for completeness.
+
+3. **CarrMadan**: 
+   - This solver implements the **Carr-Madan integral** method. It's a widely used method for option pricing, leveraging Fourier transforms for efficient pricing. Note that this method was not written by us, but it has been included for completeness.
+
+4. **LogTransform**: 
+   - This solver uses the **Lie Splitting method** with a **log transformation**. The log transformation simplifies the Black-Scholes equation by converting the problem into a simpler form for numerical solving.
+
+## Getting Started
+
+### Requirements
+
+To run the solvers, you'll need to have the following Python libraries installed:
+
+- `numpy`
+- `scipy`
+- `matplotlib`
+- `fft`
+
+You can install them via `pip`:
+
+```bash
+pip install numpy scipy matplotlib
